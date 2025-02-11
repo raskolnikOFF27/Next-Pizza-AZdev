@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
-import { Header } from "../components/shared/Header";
+import { Header } from "../components/shared/header";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -10,7 +10,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Next Pizza by AZdev",
+  title: "Next Pizza by AZ dev",
   description: "Website was created by AZdev, join my GitHub",
 };
 
